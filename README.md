@@ -52,11 +52,23 @@ where sorting order is violated.
 
 ---
 
-6. Given an array and a number N. Write a recursive function that rotates an array N places to the left. (Hint: to add element to the beginning use arr.unshift()).
+6.Given an array and a number N. Write a recursive function that rotates an array N places to the left. (Hint: to add element to the beginning use arr.unshift()).
 
 | Input                                        | Output                                   |
 | -------------------------------------------- | ---------------------------------------- |
 | [‘a’, ‘b’, ‘c’, ‘d’, ‘e’, ‘f’, ‘g’, ‘h’], 3  | [‘d’, ‘e’, ‘f’, ‘g’, ‘h’, ‘a’, ‘b’, ‘c’] |
 | [‘a’, ‘b’, ‘c’, ‘d’, ‘e’, ‘f’, ‘g’, ‘h’], -2 | [‘g’, ‘h’, ‘a’, ‘b’, ‘c’, ‘d’, ‘e’, ‘f’] |
 
-[SEE Solution](./4.removeFirstEl.js)
+[SEE Solution](./6.rotateElLeft.js)
+
+---
+
+7.Given a number. Write a function that calculates its sum of the digits and if that sum has more than 1 digit find the sum of digits of that number. Repeat that process if needed and return the result.
+
+| Input        | Output |
+| ------------ | ------ |
+| 14           | 5      |
+| 29           | 2      |
+| 999999999999 | 9      |
+
+[SEE Solution](./7.getSumOfDigits.js)
