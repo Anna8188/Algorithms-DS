@@ -37,3 +37,15 @@ where sorting order is violated.
 | [-9, -4, -4, 3, 12, 4, 5] | 4      |
 
 [SEE Solution](./3.isArraySorted.js)
+
+---
+
+4.Given an array. Write a recursive function that removes the first element and returns the given array. (without using arr.shift()).
+
+| Input              | Output           |
+| ------------------ | ---------------- |
+| [6, 78, ‘n’, 0, 1] | [ 78, ‘n’, 0, 1] |
+| [5]                | [ ]              |
+| [ ]                | [ ]              |
+
+[SEE Solution](./4.removeFirstEl.js)
