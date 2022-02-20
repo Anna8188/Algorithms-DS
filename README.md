@@ -1,6 +1,6 @@
-> [<img src="https://repository-images.githubusercontent.com/126577260/3c924980-61ac-11e9-8e4e-6e50e0cec366" width="300" height="150" />](https://repository-images.githubusercontent.com/126577260/3c924980-61ac-11e9-8e4e-6e50e0cec366)
+[<img src="https://repository-images.githubusercontent.com/126577260/3c924980-61ac-11e9-8e4e-6e50e0cec366" width="500" height="200" />](https://repository-images.githubusercontent.com/126577260/3c924980-61ac-11e9-8e4e-6e50e0cec366)
 
-> ## Recursion
+## Recursion
 
 ---
 
@@ -47,5 +47,16 @@ where sorting order is violated.
 | [6, 78, ‘n’, 0, 1] | [ 78, ‘n’, 0, 1] |
 | [5]                | [ ]              |
 | [ ]                | [ ]              |
+
+[SEE Solution](./4.removeFirstEl.js)
+
+---
+
+6. Given an array and a number N. Write a recursive function that rotates an array N places to the left. (Hint: to add element to the beginning use arr.unshift()).
+
+| Input                                        | Output                                   |
+| -------------------------------------------- | ---------------------------------------- |
+| [‘a’, ‘b’, ‘c’, ‘d’, ‘e’, ‘f’, ‘g’, ‘h’], 3  | [‘d’, ‘e’, ‘f’, ‘g’, ‘h’, ‘a’, ‘b’, ‘c’] |
+| [‘a’, ‘b’, ‘c’, ‘d’, ‘e’, ‘f’, ‘g’, ‘h’], -2 | [‘g’, ‘h’, ‘a’, ‘b’, ‘c’, ‘d’, ‘e’, ‘f’] |
 
 [SEE Solution](./4.removeFirstEl.js)
